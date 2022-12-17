@@ -5,7 +5,7 @@
 
 - Project: Gradle - Groovy
 - Language: Java
-- Spring Boot Version: 3.0.1
+- Spring Boot Version: 3.0.1 
 - Packaging: Jar
 - Java: 17
 
