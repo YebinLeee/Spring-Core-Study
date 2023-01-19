@@ -12,7 +12,6 @@ public class StatelessService {
 
     /*
     public int getPrice() {
-
         return price;
     }
      */

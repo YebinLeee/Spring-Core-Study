@@ -1,5 +1,6 @@
 package hello.core.singleton;
 
+import hello.core.member.MemberRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
