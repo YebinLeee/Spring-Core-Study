@@ -5,7 +5,11 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class OrderServiceTest {
+<<<<<<< HEAD
     MemberService memberService = new MemberServiceImpl(memberRepository);
+=======
+    MemberService memberService = new MemberServiceImpl();
+>>>>>>> 9622a20e94c04855d4687fffcbcd8ad5478992b9
     OrderService orderService = new OrderServiceImpl();
 
     @Test
