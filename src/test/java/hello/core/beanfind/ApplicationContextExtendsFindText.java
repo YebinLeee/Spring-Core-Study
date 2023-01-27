@@ -1,10 +1,8 @@
 package hello.core.beanfind;
 
-import hello.core.AppConfig;
 import hello.core.discount.DiscountPolicy;
 import hello.core.discount.FixedDiscountPolicy;
 import hello.core.discount.RatedDiscountPolicy;
-import org.assertj.core.api.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,9 +10,7 @@ import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
 import java.util.Map;
-import java.util.Objects;
 
 public class ApplicationContextExtendsFindText {
     AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(TestConfig.class);
