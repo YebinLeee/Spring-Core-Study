@@ -52,12 +52,12 @@
 
 ## Spring Boot 개발 환경 정보
 
-- Project: Gradle - Groovy
+- Project: Gradle: Groovy
 - Language: Java
 - Spring Boot Version: 3.0.1 
 - Packaging: Jar
 - Java SDK: 17
-
+- DB: H2 In-memory
 
 ## 비즈니스 요구 사항
 - 회원
@@ -72,12 +72,19 @@
 
 <br>
 
+---
+
+
 ## 블로그 정리
-- [스프링의 핵심 컨셉: 객체 지향과 다형성, SOLID 원칙과 DI 컨테이너에 대한 이해](https://dream-and-develop.tistory.com/396)
-- [Spring Boot란?](https://dream-and-develop.tistory.com/398)
-- [새로운 할인 정책 추가에 따른 객체 지향적인 확장 설계, 관심사의 분리와 제어의 역전, 의존 관계 주입 (AppConfig를 통한 DIP, OCP, SRP 적용, IoC, DI)](https://dream-and-develop.tistory.com/405)
-- [스프링 컨테이너와 스프링 빈 등록 과정 (@ApplicationContext, @Configuration, @Bean)](https://dream-and-develop.tistory.com/412)
-- [스프링 싱글톤 컨테이너란? (싱글톤 패턴의 필요성과 문제점, 주의점)](https://dream-and-develop.tistory.com/419)
-- [컴포넌트 스캔 (@ComponentScan) 과 의존 관계 자동 주입(@Autowired)](https://dream-and-develop.tistory.com/428)
-- [의존 관계 자동 주입의 4가지 방법, 생성자 주입을 사용하기](https://dream-and-develop.tistory.com/433)
-- [조회 빈이 2개 이상인 경우 문제 해결하기 (필드명/파라미터명, @Qualifier, @Primary)](https://dream-and-develop.tistory.com/448)
+
+| 순서  | 제목                                                                                                                                               |
+|:---:|:-------------------------------------------------------------------------------------------------------------------------------------------------|
+|  1  | [스프링의 핵심 컨셉: 객체 지향과 다형성, SOLID 원칙과 DI 컨테이너에 대한 이해](https://dream-and-develop.tistory.com/396)                                                    |
+|  2  | [Spring Boot란?](https://dream-and-develop.tistory.com/398)                                                                                       |
+|  3  | [새로운 할인 정책 추가에 따른 객체 지향적인 확장 설계, 관심사의 분리와 제어의 역전, 의존 관계 주입 (AppConfig를 통한 DIP, OCP, SRP 적용, IoC, DI)](https://dream-and-develop.tistory.com/405) |
+|  4  | [스프링 컨테이너와 스프링 빈 등록 과정 (@ApplicationContext, @Configuration, @Bean)](https://dream-and-develop.tistory.com/412)                                  |
+|  5  | [스프링 싱글톤 컨테이너란? (싱글톤 패턴의 필요성과 문제점, 주의점)](https://dream-and-develop.tistory.com/419)                                                              |
+|  6  | [컴포넌트 스캔 (@ComponentScan) 과 의존 관계 자동 주입(@Autowired)](https://dream-and-develop.tistory.com/428)                                                  |
+|  7  | [의존 관계 자동 주입의 4가지 방법, 생성자 주입을 사용하기](https://dream-and-develop.tistory.com/433)                                                                   |
+|  8  | [조회 빈이 2개 이상인 경우 문제 해결하기 (필드명/파라미터명, @Qualifier, @Primary)](https://dream-and-develop.tistory.com/448)                                           |
+|  9  | [전략 패턴을 활용한 할인 정책 서비스 구현(List, Map을 이용해 동일한 타입 내 모든 스프링 빈 조회)](https://dream-and-develop.tistory.com/451)            |
