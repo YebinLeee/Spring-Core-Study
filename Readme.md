@@ -87,4 +87,5 @@
 |  6  | [컴포넌트 스캔 (@ComponentScan) 과 의존 관계 자동 주입(@Autowired)](https://dream-and-develop.tistory.com/428)                                                  |
 |  7  | [의존 관계 자동 주입의 4가지 방법, 생성자 주입을 사용하기](https://dream-and-develop.tistory.com/433)                                                                   |
 |  8  | [조회 빈이 2개 이상인 경우 문제 해결하기 (필드명/파라미터명, @Qualifier, @Primary)](https://dream-and-develop.tistory.com/448)                                           |
-|  9  | [전략 패턴을 활용한 할인 정책 서비스 구현(List, Map을 이용해 동일한 타입 내 모든 스프링 빈 조회)](https://dream-and-develop.tistory.com/451)            |
+|  9  | [다형성에 기반한 전략 패턴을 활용한 할인 정책 서비스 구현(List, Map을 이용해 동일한 타입 내 모든 스프링 빈 조회)](https://dream-and-develop.tistory.com/451)                               |
+| 10 | [스프링 빈 자동 등록, 수동 등록을 각각 언제 사용해야 할까?](https://dream-and-develop.tistory.com/456)                                                                  |
